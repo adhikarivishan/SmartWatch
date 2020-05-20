@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailHint"
+        android:textSize="14sp"
+        android:id="@+id/activity_login_include_usernameHint"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_login_include_email"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_below="@id/activity_login_include_usernameHint"
+        android:layout_marginBottom="5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/passwordHint"
+        android:textSize="14sp"
+        android:id="@+id/activity_login_include_passwordHint"
+        android:layout_below="@id/activity_login_include_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/activity_login_include_password"
+        android:layout_below="@id/activity_login_include_passwordHint"
+        android:inputType="textPassword"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_loginButton"
+        android:id="@+id/activity_login_include_loginButton"
+        android:layout_below="@id/activity_login_include_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="85dp"
+        android:paddingEnd="85dp"
+        android:textSize="15sp"
+        android:background="@drawable/login_button_bg"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

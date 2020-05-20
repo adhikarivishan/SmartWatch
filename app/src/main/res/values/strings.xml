@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">SmartWatch</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="login_loginButton">Login</string>
+    <string name="signup">Signup</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="Phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Re-Password</string>
+    <string name="account_type">Account Type</string>
+    <string name="create_account">Create Account</string>
+    <string name="edit">Edit</string>
+    <string name="fitbit_username">Fitbit-username</string>
+    <string name="fitbit_password">Fitbit-password</string>
+    <string name="client_id">client_id</string>
+    <string name="header">Headers</string>
+    <string name="save">Save</string>
+    <string name="appPreferences">appPreferences</string>
+    <string name="isLoggedIn">login</string>
+
+    <string name="loginPreferences">PREFERENCES_LOGIN</string>
+    <string name="loggedInPreferences">PREFERENCES_LOGGED_IN</string>
+    <string name="loggedInPassword">PREFERENCES_LoginPassword</string>
+    <string name="preferencesUserId">PREFERENCES_UserId</string>
+    <string name="preferencesName">PREFERENCES_Name</string>
+    <string name="preferencesAddress">PREFERENCES_Address</string>
+    <string name="preferencesPhone">PREFERENCES_Phone</string>
+    <string name="preferencesEmail">PREFERENCES_Email</string>
+    <string name="preferencesAccountType">PREFERENCES_AccountType</string>
+    <string name="preferencesFitbitId">PREFERENCES_FitbitId</string>
+    <string name="preferencesFitbitUsername">PREFERENCES_FitbitUsername</string>
+    <string name="preferencesFitbitPassword">PREFERENCES_FitbitPassword</string>
+    <string name="preferencesFitbitUserId">PREFERENCES_FitbitUserId</string>
+    <string name="preferencesAccessToken">PREFERENCES_AccessToken</string>
+
+
+    <string name="setSteps">Set Foot Steps</string>
+    <string name="setDistance">Set Distance Traveled</string>
+    <string name="setCalories">Set Calories</string>
+    <string name="setFloors">Set Floors</string>
+    <string name="setGoal">Set Goal</string>
+
+    <string name="preferencesGoalId">PREFERENCES_GoalId</string>
+    <string name="preferencesFootSteps">PREFERENCES_FootSteps</string>
+    <string name="preferencesDistanceTraveled">PREFERENCES_DistanceTraveled</string>
+    <string name="preferencesCaloriesOut">PREFERENCES_CaloriesOut</string>
+    <string name="preferencesFloors">PREFERENCES_Floors</string>
+
+    <string name="addTrainee">Add Trainee</string>
+
+    <string name="traineeName">Trainee Name:</string>
+    <string name="traineeAddress">Address:</string>
+    <string name="traineePhone">Phone No.:</string>
+    <string name="traineeEmail">Email:</string>
+    <string name="viewStatus">View Status</string>
+
+    <string name="steps">Foot Steps:</string>
+    <string name="distanceTraveled">Distance Traveled:</string>
+    <string name="caloriesOut">Calories Out:</string>
+    <string name="heartRate">Heart Rate:</string>
+    <string name="floors">Floors:</string>
+
+    <string name="newPassword">New Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="oldPassword">Verify Old Password</string>
+    <string name="changePassword">Change Password</string>
+
+    <string name="isSignedUp">Signed Up</string>
+
+
+</resources>

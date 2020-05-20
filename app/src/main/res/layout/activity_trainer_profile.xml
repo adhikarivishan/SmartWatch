@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:id="@+id/layoutTrainerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/lblTrainerName"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/traineeName"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvTrainerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    app:backgroundTint="@color/colorEditTextLine" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTrainerAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal"
+                android:layout_below="@id/layoutTrainerName">
+
+                <TextView
+                    android:id="@+id/lblTrainerAddress"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/traineeAddress"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTrainerAddress"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    app:backgroundTint="@color/colorEditTextLine"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTrainerPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal"
+                android:layout_below="@id/layoutTrainerAddress">
+
+                <TextView
+                    android:id="@+id/lblTrainerPhone"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/traineePhone"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTrainerPhone"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    app:backgroundTint="@color/colorEditTextLine"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutTrainerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10sp"
+                android:orientation="horizontal"
+                android:layout_below="@id/layoutTrainerPhone">
+
+                <TextView
+                    android:id="@+id/lblTrainerEmail"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/traineeEmail"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTrainerEmail"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    app:backgroundTint="@color/colorEditTextLine"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

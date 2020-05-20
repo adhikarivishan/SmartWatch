@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/lblSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/setSteps" />
+
+    <EditText
+        android:id="@+id/txtSetSetps"
+        android:layout_width="346dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/lblSteps"/>
+
+    <TextView
+        android:id="@+id/lblDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/setDistance"
+        android:layout_below="@id/txtSetSetps" />
+
+    <EditText
+        android:id="@+id/txtSetDistance"
+        android:layout_width="346dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/lblDistance"/>
+
+    <TextView
+        android:id="@+id/lblCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/setCalories"
+        android:layout_below="@id/txtSetDistance" />
+
+    <EditText
+        android:id="@+id/txtSetCalories"
+        android:layout_width="346dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/lblCalories"/>
+
+    <TextView
+        android:id="@+id/lblFloors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/setFloors"
+        android:layout_below="@id/txtSetCalories" />
+
+    <EditText
+        android:id="@+id/txtSetFloors"
+        android:layout_width="346dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_below="@id/lblFloors"/>
+
+
+    <Button
+        android:id="@+id/btnSetGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button_bg"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textSize="15sp"
+        android:text="@string/setGoal"
+        android:layout_below="@id/txtSetFloors"/>
+
+
+</RelativeLayout>

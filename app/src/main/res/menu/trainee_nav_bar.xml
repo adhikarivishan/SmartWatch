@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/addFitbitConfig"
+        android:title="Fitbit config" />
+
+
+    <item
+        android:id="@+id/viewTrainer"
+        android:title="View Trainer" />
+
+    <item
+        android:id="@+id/setGoal"
+        android:title="Set Goal" />
+
+    <item
+        android:id="@+id/menu_main_logout"
+        android:title="Logout"
+        />
+</menu>
